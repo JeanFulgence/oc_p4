@@ -264,6 +264,10 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
+figure {
+    color: #000000;
+}
+
 .voffset {
     margin-top: 30px;
 }
@@ -453,13 +457,6 @@ nav .caret {
     margin: 0 0 5px 5px;
 }
 
-.btn-d,
-.btn-d:hover,
-.btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
-}
-
 button {
     outline: none!important;
 }
@@ -515,8 +512,8 @@ border: none;
 }
 
 .scrollToTop {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -526,12 +523,14 @@ border: none;
 }
 
 .scrollToTop span {
+    color: #FFF;
     margin-top: 6px;
 }
 
 .showScrollTop {
-    font-size: 14px;
-    opacity: 1;
+    font-size: 20px;
+    background-color: #1c243f;
+    opacity: 0.9;
 }
 
 a[data-lightbox] {
@@ -597,11 +596,11 @@ a[data-lightbox]:hover img {
     top: 20px;
     right: 20px;
     z-index: 20;
-    background: rgba(0, 0, 0, .5);
+    background: #364577;
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
-    opacity: 0.3;
+    opacity: 0.9;
 }
 
 .close-lightbox:hover,
@@ -614,13 +613,13 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-    color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
+    color: #FFF;
+    background: #364577;
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
+    opacity: 0.9;
 }
 
 .next-lightbox {
@@ -651,11 +650,10 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #3d3d3d!important;
 }
 
 .container {
@@ -741,10 +739,11 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 16px;
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: 0 auto;
 }
 
 .portfolio-row {
@@ -757,7 +756,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(129, 107, 45, 0.7);
+    background-color: rgba(87, 71, 29, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -774,20 +773,16 @@ h4 {
     background-color: #364577;
 }
 
-.bgc-atomic-tangerine {
-    background-color: #F3976C;
-}
-
 .tc-white {
     color: #e9ad91!important;
 }
 
-.btn-atomic-tangerine {
+.btn-dark-slate-blue {
     background: #364577;
     color: #FFFFFF!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-dark-slate-blue:hover {
     background: #475da5!important;
     color: #FFFFFF!important;
 }
@@ -826,7 +821,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("../img/image-de-presentation.bmp");
+    background-image: url("../img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1001,9 +996,6 @@ h4 {
     }
     .a-block {
         padding: 0 10px;
-    }
-    .btn-dwn {
-        display: none;
     }
     .voffset {
         margin-top: 5px;
