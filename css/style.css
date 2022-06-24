@@ -453,6 +453,12 @@ nav .caret {
     margin: 0 5px 5px 0;
 }
 
+.btn:focus {
+    border: 3px solid #0f1427;
+}
+
+
+
 .btn.pull-right {
     margin: 0 0 5px 5px;
 }
